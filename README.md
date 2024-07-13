@@ -2,6 +2,7 @@
 
 ## Overview
 This project provides a Tkinter-based GUI tool for processing gamma ray images and extracting data points based on color detection. The extracted data points are scaled, adjusted, and exported to a CSV file. This tool is useful for applications requiring gamma ray feature extraction and data transformation from images.
+
 **Code:** [`Gamma Ray Detection`](https://github.com/MohdIllham/Gamma-Ray-Detection/blob/main/Gamma%20Ray%20Detection.py)
 
 ## Table of Contents
@@ -12,7 +13,7 @@ This project provides a Tkinter-based GUI tool for processing gamma ray images a
 - [GUI Components)](#GUI-Components)
 - [Functions](#Functions)
 
-Features
+## Features
 - Image Browsing: Select a gamma ray image file to process.
 - Output Path Selection: Choose a location to save the output CSV file.
 - Red Color Detection: Detect red color regions in the image using HSV color space.
@@ -79,7 +80,8 @@ pip install numpy opencv-python tk
         3. Enter min-Y coordinate: 100
         4. Browse and select a gamma ray image file.
         5. Select the output path for the CSV file.
-        6. Click "Run" to process the image and save the data points. ```
+        6. Click "Run" to process the image and save the data points.
+       ```
 
 
 
