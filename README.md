@@ -74,14 +74,15 @@ pip install numpy opencv-python tk
   - select_output_path: Opens a file dialog to choose the output CSV file location.
   - run_script: Validates inputs, converts them to appropriate types, and calls process_image to execute the main functionality.
   - Example :
-        ```
+     ```
         1. Enter scale factor x: 0.5
         2. Enter scale factor y: 0.5
         3. Enter min-Y coordinate: 100
         4. Browse and select a gamma ray image file.
         5. Select the output path for the CSV file.
         6. Click "Run" to process the image and save the data points.
-       ```
+    
+     ```
 
 
 
